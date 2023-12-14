@@ -60,8 +60,8 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='mb-8 max-w-lg mx-auto lg:mx-0'
           >
-            Digitalizamos tu marca. Te potenciamos en el mundo digital 
-            utilizando <a href='/resistencias' className='font-bold text-red-500'>Resistencias</a>, <a href='/sensores' className='font-bold text-red-500'>Sensores</a> y <a href='/controladores' className='font-bold text-red-500'>Controladores</a>.
+            Asesoramos y Desarrollamos sistemas de calefacción. <br /> 
+            Venta de <a href='/resistencias' className='font-bold text-red-500'>Resistencias</a>, <a href='/sensores' className='font-bold text-red-500'>Sensores</a> y <a href='/controladores' className='font-bold text-red-500'>Controladores</a>.
           </motion.p>
           <motion.div 
              variants={fadeIn('up', 0.6)} 

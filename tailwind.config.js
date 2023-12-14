@@ -27,7 +27,7 @@ module.exports = {
       },
       backgroundImage: {
         site: "url('./assets/resistencias.jpg')",
-        about: "url('./assets/logo.png')",
+        about: "url('./assets/logoMR.png')",
         services: "url('./assets/services.png')",
       },
     },

@@ -20,13 +20,13 @@ const services = [
     name: 'Sensores',
     description:
      'Diseño Web, UX/UI, Dominios, Correo Empresarial. Te diseñamos un sitio web con información de tu marca (Contacto, Locales, Horarios) y lo ponemos en línea con Vercel o DNS.',
-    link: '/webdevelopment',
+    link: '/sensores',
   },
   {
     name: 'Controladores',
     description:
      'Social Media, Campaña de Seguidores, Plantillas (Feed-Historias), Link/QR. Creamos/Desarrollamos perfiles en redes sociales en las que la Marca tenga un potencial impacto.',
-    link: '/marketing',
+    link: '/controladores',
   }
   
 ]
@@ -42,7 +42,7 @@ const Services = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: false, amount: 0.3 }}
-          className='flex-1 lg:bg-services lg-bg-bottom bg-no-repeat 
+          className='flex-1  lg-bg-bottom bg-no-repeat 
           mix-blend-lighten mb-12 lg:mb-0  text-center lg:text-start'
         >
           <h2 className='h2 font-bold text-lime-100 my-4'>¿Cómo <br/>Digitalizamos <br/>tu Marca?</h2>
