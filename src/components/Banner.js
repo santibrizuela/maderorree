@@ -1,8 +1,6 @@
 import React from 'react';
 // images
 import Image from '../assets/blindadas1.jpg';
-// icons
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 // type animation
 import { TypeAnimation } from 'react-type-animation';
 // motion
@@ -15,7 +13,7 @@ const Banner = () => {
     className='min-h-[85vh] lg:min-h-[78vh] flex items-center' 
     id='home'
   >
-    <div className='container mx-auto'>
+    <div className='container mx-auto h-full'>
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
         {/* text */}
         <div className='flex-1 text-center font-secondary lg:text-left'>
@@ -35,7 +33,7 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[1]'
           >
-            <span className='text-gradient mr-4'>
+            <span className='text-gradient mx-auto'>
               <TypeAnimation sequence={[
                 'Resistencias',
                 2000,
@@ -70,7 +68,11 @@ const Banner = () => {
              viewport={{once: false, amount: 0.7}}
              className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'
           >
-            <a href='#contact'>
+            <a
+              href="https://wa.link/k6wmgp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className='btn btn-lg'>
                 Contactanos
               </button>
@@ -80,27 +82,7 @@ const Banner = () => {
               Ver Productos
             </a>
           </motion.div>
-          {/* socials */}
-          <motion.div 
-             variants={fadeIn('up', 0.7)} 
-             initial="hidden" 
-             whileInView={'show'} 
-             viewport={{once: false, amount: 0.7}}
-             className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'
-          >
-            <a href='https://www.instagram.com/digitalizamostumarca/' target='_blank' rel='noreferrer'>
-              <FaInstagram className='icon-color'/>
-            </a>
-            <a href='https://github.com/santibrizuela/my-portfolio' target='_blank' rel='noreferrer'>
-              <FaGithub className='icon-color'/>
-            </a>
-            <a href='https://ar.linkedin.com/company/brizuela-sideravicius' target='_blank' rel='noreferrer'>
-              <FaLinkedin className='icon-color'/>
-            </a>
-            <a href='https://www.wa.link/x0lxo2' target='_blank' rel='noreferrer'>
-              <FaWhatsapp className='icon-color'/>
-            </a>
-          </motion.div>
+          
         </div>
         {/* image */}
         <motion.div 

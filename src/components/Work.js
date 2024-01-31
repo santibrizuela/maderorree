@@ -11,8 +11,8 @@ import portfolioCe from '../assets/termocuplas.png';
 const Work = () => {
   return (
   <section className='section' id='work'>
-    <div className='container mx-auto lg:mt-80'>
-      <div className='flex flex-col lg:flex-row gap-x-10 mt-12'>
+    <div className='container mx-auto h-full mb-32'>
+      <div className='flex flex-col lg:flex-row gap-x-10'>
         <motion.div 
           variants={fadeIn('right', 0.3)}
           initial='hidden'
@@ -30,13 +30,17 @@ const Work = () => {
             </h2>
             
             <p className='max-w-sm text-[1.5rem] font-bold mb-16 mx-auto lg:mx-0'>
-              Diseñamos y creamos el <a href='/branding' className='text-gradient text-red-500'>Logo</a> de 
-              tu marca. Desarrollamos su <a href='/webdevelopment' className='text-gradient text-red-500'>Sitio Web</a>, 
-              perfiles en <a href='/marketing' className='text-gradient text-red-500'>Redes Sociales</a> y 
-              estrategias de <a href='/marketing' className='text-gradient text-red-500'>Marketing</a>.
+              Diseñamos y desarrollamos <a href='/resistencias' className='text-gradient text-red-500'>Resistencias</a>, 
+              <a href='/sensores' className='text-gradient text-red-500'> Sensores</a> y 
+              <a href='/controladores' className='text-gradient text-red-500'> Controladores</a> según las necesidades de 
+              tiempo y temperatura que tengas en producción.
             </p>
-            <a href='/portfolio'>
-              <button className='btn btn-sm'>Ver Proyectos</button>
+            <a
+              href="https://wa.link/k6wmgp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className='btn btn-sm'>Contactanos</button>
             </a>
             
           </div>
@@ -54,19 +58,23 @@ const Work = () => {
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Diseño UX/UI</span>             
+            group-hover:bottom-24 transition-all duration-500 z-40'>
+              <span className='text-gradient'>Temperatura, Tiempo y Potencia.</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>ZETA GROUP</span>
+            group-hover:bottom-14 transition-all duration-700 z-40'>
+              <span className='text-3xl text-white'>CONTROLADORES</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-50'>
-                <a href='https://zgroup-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
+            group-hover:bottom-2 transition-all duration-700 z-40'>
+                <a
+                  href="https://wa.link/k6wmgp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                    <button className='btn btn-sm'>CONTACTANOS</button>
                 </a>
             </div>
           </div>
@@ -91,19 +99,23 @@ const Work = () => {
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Desarrollos de Marca-Web y Marketing Digital</span>             
+            group-hover:bottom-24 transition-all duration-500 z-40'>
+              <span className='text-gradient'>Blindadas, Aletadas, Planas, Sunchos, etc.</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>DIVANO 2.0</span>
+            group-hover:bottom-14 transition-all duration-700 z-40'>
+              <span className='text-3xl text-white'>RESISTENCIAS</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-50'>
-                <a href='https://divano-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
+            group-hover:bottom-2 transition-all duration-700 z-40'>
+                <a
+                  href="https://wa.link/k6wmgp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                    <button className='btn btn-sm'>CONTACTANOS</button>
                 </a>
             </div>
           </div>
@@ -121,19 +133,23 @@ const Work = () => {
             />
             {/* pretitle */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-gradient'>Diseño Gráfico</span>             
+            group-hover:bottom-24 transition-all duration-500 z-40'>
+              <span className='text-gradient'>Termocuplas, Mecánicos, Campinis.</span>             
             </div>
             {/* title */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-14 transition-all duration-700 z-50'>
-              <span className='text-3xl text-white'>Ce Pastelería</span>
+            group-hover:bottom-14 transition-all duration-700 z-40'>
+              <span className='text-3xl text-white'>Sensores</span>
             </div>
             {/* button */}
             <div className='absolute -bottom-full left-12 
-            group-hover:bottom-2 transition-all duration-700 z-50'>
-                <a href='https://www.instagram.com/ce_pasteleriaa/' target='_blank' rel="noreferrer">
-                    <button className='btn btn-sm'>DEMO</button>
+            group-hover:bottom-2 transition-all duration-700 z-40'>
+                <a
+                  href="https://wa.link/k6wmgp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                    <button className='btn btn-sm'>CONTACTANOS</button>
                 </a>
             </div>
           </div>

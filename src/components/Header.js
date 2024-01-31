@@ -15,7 +15,11 @@ const Header = () => {
           </div>
           
           {/*Buttonn*/}
-          <a href='#contact'>
+          <a 
+            href='https://wa.link/k6wmgp'
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className='btn btn-sm'>Contactanos</button>
           </a>
 

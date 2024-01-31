@@ -14,7 +14,7 @@ const About = () => {
   });
   return (
     <section className='section' id='about' ref={ref}>
-      <div className='container mx-auto'>
+      <div className='container mx-auto h-full'>
         <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center
         lg:gap-x-20 lg:gap-y-0 h-screen'>
           {/* img */}
@@ -42,16 +42,13 @@ const About = () => {
               <a href='/sensores' className='text-gradient text-red-500'> Sensores</a> y 
               <a href='/controladores' className='text-gradient text-red-500'> Controladores</a> de temperatura.
             </h3>
-            <p className='mb-6'>
-              Insertamos, potenciamos y lanzamos marcas en línea.
-              Creamos soluciones impactantes y auténticas que conectan con tu audiencia y generan resultados excepcionales.
-            </p>
+            
             {/* stats */}
             <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
-                  {inView ? <CountUp start={0} end={3} duration={3} /> : 
+                  {inView ? <CountUp start={0} end={5} duration={3} /> : 
                   null}
                   +
                 </div>
@@ -68,14 +65,14 @@ const About = () => {
                   +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Proyectos <br />
-                  Completados
+                  Productos y <br />
+                  Accesorios
                 </div>
               </div>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
-                  {inView ? <CountUp start={0} end={10} duration={3} /> : 
+                  {inView ? <CountUp start={0} end={100} duration={3} /> : 
                   null}
                   +
                 </div>
@@ -86,9 +83,15 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>Contactanos</button>
-              <a href='/portfolio' className='text-red-500 font-bold btn-link'>
-                Ver Portfolio
+              <a
+                href="https://wa.link/k6wmgp"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className='btn btn-lg'>Contactanos</button>
+              </a>
+              <a href='/work' className='text-red-500 font-bold btn-link'>
+                Ver Productos
               </a>
             </div>
           </motion.div>
