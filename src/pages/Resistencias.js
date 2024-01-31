@@ -63,26 +63,21 @@ const Resistencias = () => {
                         src={Img1} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Proyecto Entregado
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>UI/UX Design NextJS</span>             
-                        </div>
+                        
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Zeta Group</span>
+                        <span className='text-3xl text-white uppercase'>BLINDADAS</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://zgroup-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -98,26 +93,20 @@ const Resistencias = () => {
                         src={Img4} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            EN MANTENIMIENTO
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>ReactApp Auth Firebase</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Netflix Clon</span>
+                        <span className='text-3xl text-white uppercase'>SUNCHO CERAMICO</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://netflix-react-js-f41dc.web.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -133,26 +122,20 @@ const Resistencias = () => {
                         src={Img7} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Plantilla Online
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>NextJS y Alojamiento</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Portfolio Vercel</span>
+                        <span className='text-3xl text-white uppercase'>MICROBLINDADA</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://brisider-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -175,26 +158,20 @@ const Resistencias = () => {
                         src={Img2} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Proyecto en Desarrollo
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>Desarrollo de Marca y Web</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Divano 2.0</span>
+                        <span className='text-3xl text-white uppercase'>ALETADAS</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://divano-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -210,26 +187,20 @@ const Resistencias = () => {
                         src={Img5} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Proyecto Online
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>Desarrollo de Marca y Landingpage</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Ferretería Divano</span>
+                        <span className='text-3xl text-white uppercase'>CARTUCHOS</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://ferreteriadivano.com/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -245,26 +216,20 @@ const Resistencias = () => {
                         src={Img8} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Plantilla Online
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>UI/UX Design ReactApp</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Food App</span>
+                        <span className='text-3xl text-white uppercase'>DISCOS CERAMICOS</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://food-app-24f5b.web.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -287,26 +252,20 @@ const Resistencias = () => {
                         src={Img3} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Proyecto Online
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>ReactApp, DNS y Alojamiento</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>RE-SIS-TEN.COM</span>
+                        <span className='text-3xl text-white uppercase'>SUNCHO DE CHAPA</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://resisten.com.ar/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -322,26 +281,20 @@ const Resistencias = () => {
                         src={Img6} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Proyecto Online
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>Desarrollo de Marketing y Web</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Madero Imprime</span>
+                        <span className='text-3xl text-white uppercase'>PLANAS</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://santibrizuela.github.io/madero/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -357,26 +310,20 @@ const Resistencias = () => {
                         src={Img9} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Proyecto Online
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>ReactApp, DNS y Alojamiento</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Savino SRL</span>
+                        <span className='text-3xl text-white uppercase'>CABEZALES</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://savino-srl.com.ar/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>

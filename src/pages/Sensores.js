@@ -1,6 +1,6 @@
 import React from 'react'
 // image
-import digitalMarketing from '../assets/digitalMarketing.jpg';
+import topImage from '../assets/campinis.png';
 // motion
 import { motion } from 'framer-motion';
 // variants
@@ -11,7 +11,7 @@ import Img1 from '../assets/termostatos.png';
 import Img2 from '../assets/termocuplas.png';
 import Img3 from '../assets/campinis.png';
 
-const Marketing = () => {
+const Sensores = () => {
   return (
     <>
 
@@ -26,7 +26,7 @@ const Marketing = () => {
                 className='w-screen h-[30vh] lg:h-[40vh] top-0'
             >
                 <div className='absolute top-30 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10'/>
-                <img className='h-full w-full object-cover z-1' src={digitalMarketing} alt='Green Card & Visa'/>
+                <img className='h-full w-full object-cover z-1' src={topImage} alt='Green Card & Visa'/>
                 <div className='absolute top-[18%] lg:top-[24%] max-w-[1240px] w-full text-white z-20 p-2'>
                     <h2 className='py-2 font-bold text-gradient text-[2.6rem]'>SENSORES DE TEMPERATURA</h2>
                     
@@ -54,26 +54,20 @@ const Marketing = () => {
                         src={Img1} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Proyecto Entregado
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>UI/UX Design NextJS</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Zeta Group</span>
+                        <span className='text-3xl text-white uppercase'>TERMOSTATO MECANICO</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://zgroup-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -89,26 +83,20 @@ const Marketing = () => {
                         src={Img2} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            EN MANTENIMIENTO
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>ReactApp Auth Firebase</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Netflix Clon</span>
+                        <span className='text-3xl text-white uppercase'>TERMOCUPLAS</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://netflix-react-js-f41dc.web.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -124,26 +112,20 @@ const Marketing = () => {
                         src={Img3} 
                         alt='img' 
                         />
-                        {/* status */}
-                        <p className='absolute -bottom-full left-12 
-                        group-hover:bottom-32 transition-all duration-500 z-30'>
-                            Plantilla Online
-                        </p>
-                        {/* pretitle */}
-                        <div className='absolute -bottom-full left-12 
-                        group-hover:bottom-24 transition-all duration-500 z-30'>
-                        <span className='text-gradient'>NextJS y Alojamiento</span>             
-                        </div>
                         {/* title */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-14 transition-all duration-700 z-30'>
-                        <span className='text-3xl text-white uppercase'>Portfolio Vercel</span>
+                        <span className='text-3xl text-white uppercase'>CAMPINIS</span>
                         </div>
                         {/* button */}
                         <div className='absolute -bottom-full left-12 
                         group-hover:bottom-2 transition-all duration-700 z-30'>
-                            <a href='https://brisider-nextjs.vercel.app/' target='_blank' rel="noreferrer">
-                                <button className='btn btn-sm'>DEMO</button>
+                            <a
+                                href="https://wa.link/k6wmgp"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <button className='btn btn-sm'>CONTACTANOS</button>
                             </a>
                         </div>
                     </div>
@@ -156,4 +138,4 @@ const Marketing = () => {
   )
 }
 
-export default Marketing
+export default Sensores

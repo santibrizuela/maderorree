@@ -19,7 +19,7 @@ const services = [
   {
     name: 'Sensores',
     description:
-     'Termocupla J / K / PT-100 / PT-1000, Campinis, Termostato Mecánico, Termostato de Plancha, Termostato de Termotanque.',
+     'Termocupla J / K / PT-100 / PT-1000 / Compactadas, Campinis, Termostato Mecánico, Termostato de Plancha, Termostato de Termotanque.',
     link: '/sensores',
   },
   {

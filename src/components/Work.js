@@ -69,12 +69,8 @@ const Work = () => {
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-40'>
-                <a
-                  href="https://wa.link/k6wmgp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                    <button className='btn btn-sm'>CONTACTANOS</button>
+                <a href="/controladores">
+                    <button className='btn btn-sm'>Ver Más</button>
                 </a>
             </div>
           </div>
@@ -110,12 +106,8 @@ const Work = () => {
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-40'>
-                <a
-                  href="https://wa.link/k6wmgp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                    <button className='btn btn-sm'>CONTACTANOS</button>
+                <a href="/resistencias">
+                    <button className='btn btn-sm'>Ver Más</button>
                 </a>
             </div>
           </div>
@@ -144,12 +136,8 @@ const Work = () => {
             {/* button */}
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-2 transition-all duration-700 z-40'>
-                <a
-                  href="https://wa.link/k6wmgp"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                    <button className='btn btn-sm'>CONTACTANOS</button>
+                <a href="sensores">
+                    <button className='btn btn-sm'>Ver Más</button>
                 </a>
             </div>
           </div>
