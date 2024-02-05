@@ -24,7 +24,7 @@ const Resistencias = () => {
     <>
 
 
-        <div className='w-full h-full'>
+        <div className='w-full h-full pb-36'>
             <motion.div 
                 
                 variants={fadeIn('down', 0.2)}
