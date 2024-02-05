@@ -35,7 +35,7 @@ const Services = () => {
   return (
   <section className='section' id='services'>
     <div className='container mx-auto h-full'>
-      <div className='flex flex-col lg:flex-row'>
+      <div className='flex flex-col lg:flex-row pb-20'>
         {/* text & image */}
         <motion.div 
           variants={fadeIn('right', 0.3)}
