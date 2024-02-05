@@ -16,7 +16,7 @@ const About = () => {
     <section className='section' id='about' ref={ref}>
       <div className='container mx-auto h-full'>
         <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center
-        lg:gap-x-20 lg:gap-y-0 h-screen'>
+        lg:gap-x-20 lg:gap-y-0 h-screen pb-80'>
           {/* img */}
           <motion.div
             variants={fadeIn('right', 0.3)}
