@@ -16,7 +16,7 @@ const Controladores = () => {
         <>
     
     
-    <div className='w-full'>
+    <div className='w-full pb-36'>
             <motion.div 
                 
                 variants={fadeIn('down', 0.2)}
