@@ -8,7 +8,6 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import { Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
 import Sensores from './pages/Sensores';
 import Controladores from './pages/Controladores';
 import Resistencias from './pages/Resistencias';
@@ -24,7 +23,6 @@ const App = () => {
         <Route path='/about' element={<About/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='/work' element={<Work/>} />
-        <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/controladores' element={<Controladores/>} />
         <Route path='/sensores' element={<Sensores/>} />
         <Route path='/resistencias' element={<Resistencias/>} />
