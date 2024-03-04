@@ -16,19 +16,19 @@ import campinis from '../assets/campinis.png';
 const productos = [
   
     {
-      name: 'Llaves Curvas',
+      name: 'TT Mecánico',
       description:
-      'Bremen.',
+      '40° / 90° / 120° / 220° / 300°.',
       cardimage: termostatos,
     },{
-      name: 'Llaves Rectas',
+      name: 'Termocuplas',
       description:
-      'Bremen.',
+      'J / K / PT100 / Compactadas.',
       cardimage: termocuplas,
     },{
-        name: 'Llaves Rectas',
+        name: 'Campinis',
         description:
-        'Bremen.',
+        'Bebedero / Horno.',
         cardimage: campinis,
       }
 
