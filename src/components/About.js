@@ -44,7 +44,7 @@ const About = () => {
             </h3>
             
             {/* stats */}
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12 justify-center'>
+            <div className='flex gap-x-6 lg:gap-x-10 mb-12 justify-center lg:justify-start'>
               <div>
                 <div className='text-[40px] font-tertiary text-gradient
                 mb-2'>
@@ -82,7 +82,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className='flex gap-x-8 items-center justify-center'>
+            <div className='flex gap-x-8 items-center justify-center lg:justify-start'>
               <a
                 href="https://wa.link/k6wmgp"
                 target="_blank"
